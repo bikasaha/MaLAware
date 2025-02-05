@@ -168,6 +168,8 @@ We welcome contributions to **MaLAware**! If you would like to contribute to the
 4. Push your changes to your forked repository
 5. Submit a pull request
 
+### Note: This tool has been accepted in the Dataset Tool Track at the [MSR 2025 conference](https://2025.msrconf.org/). The published paper details will be updated on the tool's GitHub repository after publication, available at: [MaLAware](https://github.com/bikasaha/MaLAware) . If you use this tool in any capacity, please provide a citation. 
+
 
 ## Contact
 
