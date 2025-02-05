@@ -4,13 +4,14 @@
 
 **MaLAware** is a tool designed to analyze and explain the behavior of malware using advanced large language models (LLMs). It leverages state-of-the-art language models to generate comprehensive, actionable, and human-readable explanations of malicious software behavior. This tool aims to assist cybersecurity analysts in understanding and interpreting complex malware actions.
 
+---
 ## Features
-
+---
 - Generates detailed explanations of malware behavior.
 - Provides actionable insights for cybersecurity professionals.
 - Uses multiple large language models (LLMs) for performance comparison.
 - Supports 4-bit quantization for faster inference with lower resource usage.
-
+---
 ## Project Structure
 ```
 MaLAware/
@@ -39,7 +40,7 @@ MaLAware/
 └── test.json            # Test input file (This is provided as a sample. The sandbox reports can be found in the DATASET/SANDBOX_REPORT/ directory)
 
 ```
-
+---
 ## Installation
 
 ### Prerequisites
@@ -57,6 +58,7 @@ To ensure smooth performance, please make sure of the following:
 - **CUDA Support**: For faster inference with GPU, **CUDA-enabled GPUs** are recommended. Ensure that the appropriate **NVIDIA drivers** and **CUDA toolkit** are installed for your GPU, with at least 15 GB of RAM (for quantized models). This will accelerate the execution of models that utilize GPU processing. This is also needed when using quantization feature.
 - RAM usage may increase in certain cases, such as with large JSON files, increased context length, and similar scenarios.
 
+---
 
 ## Usage
 
@@ -82,6 +84,7 @@ You can choose the model that best suits your needs based on the task at hand.
 
 **Note:** Ensure you have your Hugging Face token for access to gated repositories.
 
+---
 
 ## Running MaLAware using python script
 
@@ -141,7 +144,10 @@ Example output:
 
 After processing a sample, the output will be displayed under the heading **`Generated Summary:`**, providing a comprehensive explanation of the malware's actions and highlighting key behaviors.
 
+---
+
 ## Running MaLAware via Docker
+
 
 #### Steps
 
@@ -163,19 +169,26 @@ After processing a sample, the output will be displayed under the heading **`Gen
 - **`--q`** argument: Optional flag for enabling 4-bit quantization for faster inference. (CUDA support needed)
 - **`--hf`** argument: Hugging Face authentication token is required.
 
-## Contributing
+---
 
-We welcome contributions to **MaLAware**! If you would like to contribute to the project, please follow these steps:
+## 📢 Contribute & Collaborate  
+We welcome contributions! Feel free to:  
 
-1. Fork the repository
-2. Create a new branch
-3. Make your changes and commit them
-4. Push your changes to your forked repository
-5. Submit a pull request
+- 📌 Report issues in the **[Issues tab](../../issues)**  
+- 🚀 Submit enhancements via **[Pull Requests](../../pulls)**  
+
+---
+
+## 📜 License  
+This project is licensed under the **Apache 2.0 License**.  
+
+---
 
 ### Note: This tool has been accepted in the Dataset Tool Track at the [MSR 2025 conference](https://2025.msrconf.org/). The published paper details will be updated on the tool's GitHub repository after publication, available at: [MaLAware](https://github.com/bikasaha/MaLAware) . If you use this tool in any capacity, please provide a citation. 
 
-
+---
 ## Contact
 
 For any questions or issues, please open an issue on the GitHub repository or contact us at [bikash@cse.iitk.ac.in] or [nandarani@cse.iitk.ac.in].
+
+---
