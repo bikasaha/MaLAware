@@ -83,7 +83,7 @@ You can choose the model that best suits your needs based on the task at hand.
 **Note:** Ensure you have your Hugging Face token for access to gated repositories.
 
 
-### Running MaLAware using python script
+## Running MaLAware using python script
 
 #### Steps
 
@@ -142,7 +142,7 @@ Example output:
 
 After processing a sample, the output will be displayed under the heading **`Generated Summary:`**, providing a comprehensive explanation of the malware's actions and highlighting key behaviors.
 
-### Running MaLAware via Docker
+## Running MaLAware via Docker
 
 #### Steps
 
