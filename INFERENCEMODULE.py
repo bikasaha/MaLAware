@@ -84,7 +84,8 @@ def run_llama_inference(model_name, malware_data, quantization=False):
         do_sample=True,  # Enable sampling for diversity
         temperature=0.7,  # Control randomness of generation
         top_k=50,  # Limit top-k tokens for consideration
-        top_p=0.9  # Nucleus sampling for balanced creativity
+        top_p=0.9,  # Nucleus sampling for balanced creativity
+        pad_token_id=tokenizer.eos_token_id  # Explicitly set the pad_token_id
     )
 
     # Decode the generated text
