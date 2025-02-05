@@ -97,7 +97,7 @@ You can choose the model that best suits your needs based on the task at hand.
 2. Create a virtual environment (optional but recommended):
 
    ```bash
-   conda create -n malware python=3.8
+   conda create -n malware python=3.8 -y
    conda activate malware
    ```
 
