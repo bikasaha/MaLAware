@@ -138,7 +138,7 @@ Example output:
 
 ```
 
-## Example Output
+### Example Output
 
 After processing a sample, the output will be displayed under the heading **`Generated Summary:`**, providing a comprehensive explanation of the malware's actions and highlighting key behaviors.
 
