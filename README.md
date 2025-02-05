@@ -105,7 +105,6 @@ You can choose the model that best suits your needs based on the task at hand.
 
    ```bash
    pip install -r requirements.txt
-   pip install -U bitsandbytes
    ```
 
 To run **MaLAware**, use the following command:
