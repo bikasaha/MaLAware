@@ -145,9 +145,15 @@ After processing a sample, the output will be displayed under the heading **`Gen
 
 #### Steps
 
-1. Ensure you have docker installed and running
-2. Run `docker build -t malaware .` command
-3. Run command:
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/bikasaha/MaLAware.git
+   cd MaLAware
+   ```
+2. Ensure you have docker installed and running
+3. Run `docker build -t malaware .` command
+4. Run command:
 
     ```bash
     docker run --rm -v $(pwd):/app/data malaware --i /app/data/</path/to/input.json> --m meta-llama/Llama-3.1-8B-Instruct --q --hf <your_hugging_face_token>
