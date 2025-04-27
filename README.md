@@ -186,6 +186,8 @@ This project is licensed under the **Apache 2.0 License**.
 
 ### Note: This tool has been accepted in the Dataset Tool Track at the [MSR 2025 conference](https://2025.msrconf.org/). The published paper details will be updated on the tool's GitHub repository after publication, available at: [MaLAware](https://github.com/bikasaha/MaLAware) . If you use this tool in any capacity, please provide a citation. 
 
+### The paper is available on arXiv at: https://arxiv.org/abs/2504.01145
+
 ---
 ## Contact
 
